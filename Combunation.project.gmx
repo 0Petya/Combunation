@@ -57,6 +57,8 @@
       </scripts>
       <script>scripts\scr_enemy_attack.gml</script>
       <script>scripts\scr_enemy_step.gml</script>
+      <script>scripts\scr_enemy_movement.gml</script>
+      <script>scripts\scr_enemy_create.gml</script>
     </scripts>
     <script>scripts\scr_entity_create.gml</script>
     <script>scripts\scr_entity_step.gml</script>
