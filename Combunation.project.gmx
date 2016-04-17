@@ -9,6 +9,7 @@
     <sprite>sprites\spr_bun</sprite>
     <sprite>sprites\spr_wall</sprite>
     <sprite>sprites\spr_poop</sprite>
+    <sprite>sprites\spr_bullet</sprite>
     <sprite>sprites\spr_bun_walk</sprite>
     <sprite>sprites\spr_bun_jump</sprite>
     <sprites name="level_1">
@@ -16,6 +17,7 @@
       <sprite>sprites\sprite8</sprite>
       <sprite>sprites\spr_room_wall</sprite>
     </sprites>
+    <sprite>sprites\spr_robot</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -25,6 +27,9 @@
   <scripts name="scripts">
     <scripts name="Projectile">
       <script>scripts\scr_projectile_step.gml</script>
+      <scripts name="Poop">
+        <script>scripts\scr_poop_create.gml</script>
+      </scripts>
     </scripts>
     <scripts name="Player">
       <scripts name="Bun">
@@ -32,6 +37,17 @@
       </scripts>
       <script>scripts\scr_player_movement.gml</script>
       <script>scripts\scr_player_attack.gml</script>
+    </scripts>
+    <scripts name="Enemy">
+      <scripts name="Robot">
+        <script>scripts\scr_robot_create.gml</script>
+        <script>scripts\scr_robot_attack.gml</script>
+      </scripts>
+    </scripts>
+    <script>scripts\scr_entity_create.gml</script>
+    <script>scripts\scr_entity_step.gml</script>
+    <scripts name="Util">
+      <script>scripts\scr_find_objects.gml</script>
     </scripts>
   </scripts>
   <objects name="objects">
@@ -42,8 +58,15 @@
       <object>objects\obj_player</object>
     </objects>
     <object>objects\obj_poop</object>
+    <object>objects\obj_bullet</object>
+    <objects name="Enemy">
+      <object>objects\obj_robot</object>
+      <object>objects\obj_enemy</object>
+    </objects>
+    <object>objects\obj_entity</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\enemy_staging</room>
     <room>rooms\room0</room>
   </rooms>
   <help>
