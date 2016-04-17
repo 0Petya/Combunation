@@ -9,8 +9,16 @@
     <sprite>sprites\spr_bun</sprite>
     <sprite>sprites\spr_wall</sprite>
     <sprite>sprites\spr_poop</sprite>
+    <sprite>sprites\spr_bun_walk</sprite>
+    <sprite>sprites\spr_bun_jump</sprite>
+    <sprite>sprites\sprite6</sprite>
+    <sprites name="level_1">
+      <sprite>sprites\spr_floor</sprite>
+    </sprites>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\background0</background>
+  </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <scripts name="Projectile">
@@ -32,6 +40,9 @@
       <object>objects\obj_player</object>
     </objects>
     <object>objects\obj_poop</object>
+    <objects name="level_1">
+      <object>objects\obj_level1_floor</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
