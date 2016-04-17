@@ -64,7 +64,7 @@
     <objects name="Enemy">
       <object>objects\obj_robot</object>
       <object>objects\obj_enemy</object>
-	</objects>
+    </objects>
     <objects name="level_1_wall">
       <object>objects\obj_wall_2</object>
       <object>objects\obj_wall</object>
@@ -75,8 +75,8 @@
     <object>objects\obj_entity</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\enemy_staging</room>
     <room>rooms\room0</room>
+    <room>rooms\enemy_staging</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
