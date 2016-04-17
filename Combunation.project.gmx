@@ -44,12 +44,14 @@
       </scripts>
       <script>scripts\scr_player_movement.gml</script>
       <script>scripts\scr_player_attack.gml</script>
+      <script>scripts\scr_player_step.gml</script>
     </scripts>
     <scripts name="Enemy">
       <scripts name="Robot">
         <script>scripts\scr_robot_create.gml</script>
       </scripts>
       <script>scripts\scr_enemy_attack.gml</script>
+      <script>scripts\scr_enemy_step.gml</script>
     </scripts>
     <script>scripts\scr_entity_create.gml</script>
     <script>scripts\scr_entity_step.gml</script>

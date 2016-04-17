@@ -1,1 +1,1 @@
-damage = 1
+damage = 2
