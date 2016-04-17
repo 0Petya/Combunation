@@ -89,6 +89,7 @@
       <object>objects\obj_wall_close</object>
       <object>objects\obj_wall_close_right</object>
       <object>objects\obj_wall_close_left</object>
+      <object>objects\object_invisible_wall</object>
     </objects>
     <object>objects\obj_entity</object>
     <object>objects\obj_projectile</object>
