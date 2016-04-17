@@ -14,8 +14,11 @@
     <sprite>sprites\spr_bun_jump</sprite>
     <sprites name="level_1">
       <sprite>sprites\spr_floor</sprite>
-      <sprite>sprites\sprite8</sprite>
+      <sprite>sprites\spr_room_wall_corner</sprite>
       <sprite>sprites\spr_room_wall</sprite>
+      <sprite>sprites\spr_room_wall_fill</sprite>
+      <sprite>sprites\spr_room_wall_2</sprite>
+      <sprite>sprites\spr_wall_2_fill</sprite>
     </sprites>
     <sprite>sprites\spr_robot</sprite>
   </sprites>
@@ -51,7 +54,6 @@
     </scripts>
   </scripts>
   <objects name="objects">
-    <object>objects\obj_wall</object>
     <object>objects\obj_solid</object>
     <objects name="Player">
       <object>objects\obj_bun</object>
@@ -62,6 +64,13 @@
     <objects name="Enemy">
       <object>objects\obj_robot</object>
       <object>objects\obj_enemy</object>
+	</objects>
+    <objects name="level_1_wall">
+      <object>objects\obj_wall_2</object>
+      <object>objects\obj_wall</object>
+      <object>objects\obj_wall_fill</object>
+      <object>objects\obj_wall_2_fill</object>
+      <object>objects\obj_wall_corner</object>
     </objects>
     <object>objects\obj_entity</object>
   </objects>
