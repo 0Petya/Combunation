@@ -13,7 +13,9 @@
     <sprite>sprites\spr_bun_walk</sprite>
     <sprite>sprites\spr_bun_jump</sprite>
     <sprites name="level_1">
-      <sprite>sprites\spr_floor</sprite>
+      <sprite>sprites\spr__wall_shadow</sprite>
+      <sprite>sprites\spr_wall_shadow_2</sprite>
+      <sprite>sprites\spr_wall_corner_shadow</sprite>
       <sprite>sprites\spr_room_wall_corner</sprite>
       <sprite>sprites\spr_room_wall</sprite>
       <sprite>sprites\spr_room_wall_fill</sprite>
@@ -71,6 +73,9 @@
       <object>objects\obj_wall_fill</object>
       <object>objects\obj_wall_2_fill</object>
       <object>objects\obj_wall_corner</object>
+      <object>objects\obj_floor_fill</object>
+      <object>objects\obj_floor_fill_2</object>
+      <object>objects\obj_wall_corner_fill</object>
     </objects>
     <object>objects\obj_entity</object>
   </objects>
