@@ -169,6 +169,10 @@
     <instance objName="obj_wall_corner_fill" x="960" y="960" name="inst_A73D747D" locked="0" code="" scaleX="-1" scaleY="-1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall_corner_fill" x="960" y="64" name="inst_35E5CC15" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_robot" x="512" y="480" name="inst_E6F00E59" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_robot" x="768" y="224" name="inst_593F1CF9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_robot" x="320" y="160" name="inst_1506FBA4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_robot" x="256" y="800" name="inst_17E4C20F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_robot" x="800" y="800" name="inst_8FA2A3E2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

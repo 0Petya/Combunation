@@ -4,4 +4,4 @@ proj_speed = 5
 projectile = obj_bullet
 fire_speed = 120
 
-fired = fire_speed
+fired = irandom(fire_speed)
