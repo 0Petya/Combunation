@@ -34,6 +34,9 @@
       <scripts name="Poop">
         <script>scripts\scr_poop_create.gml</script>
       </scripts>
+      <scripts name="Bullet">
+        <script>scripts\scr_bullet_create.gml</script>
+      </scripts>
     </scripts>
     <scripts name="Player">
       <scripts name="Bun">
@@ -45,8 +48,8 @@
     <scripts name="Enemy">
       <scripts name="Robot">
         <script>scripts\scr_robot_create.gml</script>
-        <script>scripts\scr_robot_attack.gml</script>
       </scripts>
+      <script>scripts\scr_enemy_attack.gml</script>
     </scripts>
     <script>scripts\scr_entity_create.gml</script>
     <script>scripts\scr_entity_step.gml</script>
@@ -77,6 +80,7 @@
       <object>objects\obj_wall_corner_fill</object>
     </objects>
     <object>objects\obj_entity</object>
+    <object>objects\obj_projectile</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>

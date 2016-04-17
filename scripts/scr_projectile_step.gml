@@ -4,7 +4,7 @@ y += vsp
 if (place_meeting(x, y, obj_solid)) instance_destroy()
 
 var enemy
-if (place_meeting(x, y, obj_enemy)) {
+if (place_meeting(x, y, obj_enemy) && object_index != obj_bullet) {
     enemy = instance_place(x, y, obj_enemy)
     enemy.hp = enemy.hp - damage
     instance_destroy()
