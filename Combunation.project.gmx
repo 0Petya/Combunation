@@ -40,9 +40,6 @@
       <object>objects\obj_player</object>
     </objects>
     <object>objects\obj_poop</object>
-    <objects name="level_1">
-      <object>objects\obj_level1_floor</object>
-    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
