@@ -11,7 +11,7 @@ if (place_meeting(x, y, obj_enemy)) {
 }
 
 var player
-if (place_meeting(x, y, obj_player)) {
+if (place_meeting(x, y, obj_player) && object_index != obj_poop) {
     player = instance_place(x, y, obj_player)
     player.hp = player.hp - damage
     instance_destroy()
