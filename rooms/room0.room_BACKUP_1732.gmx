@@ -65,6 +65,12 @@
     <instance objName="obj_wall_left" x="0" y="192" name="inst_ACE1433A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall_left" x="0" y="64" name="inst_58A5A2D2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_robot" x="512" y="480" name="inst_E6F00E59" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+<<<<<<< Updated upstream
+    <instance objName="obj_robot" x="768" y="224" name="inst_593F1CF9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_robot" x="320" y="160" name="inst_1506FBA4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_robot" x="256" y="800" name="inst_17E4C20F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_robot" x="800" y="800" name="inst_8FA2A3E2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+=======
     <instance objName="obj_wall_left" x="0" y="128" name="inst_3F2BBB4C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall_left" x="0" y="832" name="inst_1D7CA4ED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall_left" x="0" y="896" name="inst_6FC9B7D6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -113,6 +119,7 @@
     <instance objName="obj_wall" x="768" y="0" name="inst_71BD8EA3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="832" y="0" name="inst_758EC84D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="896" y="0" name="inst_21537750" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+>>>>>>> Stashed changes
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

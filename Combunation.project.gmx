@@ -9,14 +9,15 @@
     <sprite>sprites\spr_wall</sprite>
     <sprite>sprites\spr_bullet</sprite>
     <sprites name="level_1">
-      <sprite>sprites\spr__wall_shadow</sprite>
-      <sprite>sprites\spr_wall_shadow_2</sprite>
-      <sprite>sprites\spr_wall_corner_shadow</sprite>
-      <sprite>sprites\spr_room_wall_corner</sprite>
-      <sprite>sprites\spr_room_wall</sprite>
-      <sprite>sprites\spr_room_wall_fill</sprite>
-      <sprite>sprites\spr_room_wall_2</sprite>
-      <sprite>sprites\spr_wall_2_fill</sprite>
+      <sprite>sprites\spr_room_wall_corner_left</sprite>
+      <sprite>sprites\obj_room_wall_far</sprite>
+      <sprite>sprites\spr_room_wall_corner_right</sprite>
+      <sprite>sprites\spr_room_wall_left</sprite>
+      <sprite>sprites\spr_room_wall_right</sprite>
+      <sprite>sprites\sprite20</sprite>
+      <sprite>sprites\spr_room_wall_close</sprite>
+      <sprite>sprites\spr_room_wall_close_corner_right</sprite>
+      <sprite>sprites\spr_room_wall_close_corner_left</sprite>
     </sprites>
     <sprite>sprites\spr_robot</sprite>
     <sprites name="Bun">
@@ -76,14 +77,14 @@
       <object>objects\obj_enemy</object>
     </objects>
     <objects name="level_1_wall">
-      <object>objects\obj_wall_2</object>
+      <object>objects\obj_wall_left</object>
+      <object>objects\obj_wall_right</object>
+      <object>objects\obj_wall_corner_left</object>
       <object>objects\obj_wall</object>
-      <object>objects\obj_wall_fill</object>
-      <object>objects\obj_wall_2_fill</object>
-      <object>objects\obj_wall_corner</object>
-      <object>objects\obj_floor_fill</object>
-      <object>objects\obj_floor_fill_2</object>
-      <object>objects\obj_wall_corner_fill</object>
+      <object>objects\obj_wall_corner_right</object>
+      <object>objects\obj_wall_close</object>
+      <object>objects\obj_wall_close_right</object>
+      <object>objects\obj_wall_close_left</object>
     </objects>
     <object>objects\obj_entity</object>
     <object>objects\obj_projectile</object>

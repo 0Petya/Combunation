@@ -20,6 +20,6 @@
   <width>64</width>
   <height>64</height>
   <frames>
-    <frame index="0">images\spr_room_wall_fill_0.png</frame>
+    <frame index="0">images\obj_room_wall_far_0.png</frame>
   </frames>
 </sprite>
