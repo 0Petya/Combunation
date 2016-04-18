@@ -31,6 +31,7 @@
     <sprite>sprites\spr_robot_back</sprite>
     <sprite>sprites\spr_shadow</sprite>
     <sprite>sprites\spr_poof</sprite>
+    <sprite>sprites\spr_health</sprite>
     <sprites name="Player">
       <sprites name="Bun">
         <sprite>sprites\spr_bun_walk</sprite>
@@ -107,16 +108,21 @@
     <scripts name="Util">
       <script>scripts\scr_find_objects.gml</script>
       <script>scripts\scr_free_spot.gml</script>
+      <script>scripts\scr_text_outline.gml</script>
     </scripts>
     <script>scripts\scr_camera_step.gml</script>
     <scripts name="Manager">
       <script>scripts\scr_manager_step.gml</script>
       <script>scripts\scr_manager_create.gml</script>
+      <script>scripts\scr_manager_gui.gml</script>
     </scripts>
     <script>scripts\scr_shadow_step.gml</script>
     <script>scripts\scr_poof_animation_end.gml</script>
     <script>scripts\spr_poof_create.gml</script>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\fnt_consolas</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_solid</object>
     <objects name="Projectile">
