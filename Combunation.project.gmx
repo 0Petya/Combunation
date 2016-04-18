@@ -44,6 +44,8 @@
       </sprites>
       <sprites name="Tiger">
         <sprite>sprites\spr_baby_tiger</sprite>
+        <sprite>sprites\spr_tiger</sprite>
+        <sprite>sprites\spr_tiger_attack</sprite>
       </sprites>
     </sprites>
     <sprites name="Projectile">
