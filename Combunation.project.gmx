@@ -45,6 +45,7 @@
       </sprites>
       <sprites name="Shark">
         <sprite>sprites\spr_baby_shark</sprite>
+        <sprite>sprites\spr_shark</sprite>
       </sprites>
       <sprites name="Tiger">
         <sprite>sprites\spr_baby_tiger</sprite>
