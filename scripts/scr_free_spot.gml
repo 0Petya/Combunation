@@ -8,7 +8,7 @@ while (collision_rectangle(xpoint - xsize, ypoint - ysize, xpoint + xsize, ypoin
     ypoint = irandom(room_height)
 }
 
-var points
+var points;
 points[0] = xpoint
 points[1] = ypoint
 
