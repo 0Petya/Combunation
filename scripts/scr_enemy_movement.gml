@@ -6,7 +6,7 @@ if (moved == 0) {
 
 switch (type) {
     case move_type.FOLLOW:
-        if (instance_exists(nearest_player)) {
+        if (player_in_range) {
             var position = point_direction(x, y, nearest_player.x, nearest_player.y)
             vsp = -sin(degtorad(position)) * move_speed
             hsp = cos(degtorad(position)) * move_speed

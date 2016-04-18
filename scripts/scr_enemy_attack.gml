@@ -1,4 +1,4 @@
-if (instance_exists(nearest_player)) {
+if (player_in_range) {
     attacking = true
     
     var proj
