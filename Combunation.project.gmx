@@ -5,10 +5,10 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound">
-    <sound>sound\snd_music</sound>
     <sound>sound\snd_poop</sound>
     <sound>sound\snd_laser</sound>
     <sound>sound\snd_step</sound>
+    <sound>sound\snd_music</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_wall</sprite>
