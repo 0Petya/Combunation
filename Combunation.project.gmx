@@ -29,6 +29,7 @@
       <sprite>sprites\spr_bun</sprite>
       <sprite>sprites\spr_poop</sprite>
     </sprites>
+    <sprite>sprites\spr_shadow</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -77,6 +78,7 @@
       <script>scripts\scr_manager_step.gml</script>
       <script>scripts\scr_manager_create.gml</script>
     </scripts>
+    <script>scripts\scr_shadow_step.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_solid</object>
@@ -108,6 +110,7 @@
     <object>objects\obj_projectile</object>
     <object>objects\obj_camera</object>
     <object>objects\obj_manager</object>
+    <object>objects\obj_shadow</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>

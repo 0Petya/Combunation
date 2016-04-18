@@ -7,3 +7,6 @@ projectile = obj_poop
 fire_speed = 25
 
 fired = 0
+
+shadow = instance_create(x, y, obj_shadow)
+shadow.instance = id

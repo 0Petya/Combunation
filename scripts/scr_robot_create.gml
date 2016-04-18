@@ -10,3 +10,6 @@ attack_distance = 512
 
 fired = irandom(fire_speed)
 moved = irandom(move_decision_rate)
+
+shadow = instance_create(x, y, obj_shadow)
+shadow.instance = id
