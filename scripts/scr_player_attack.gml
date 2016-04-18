@@ -26,6 +26,18 @@ if ((atk_up || atk_down || atk_left || atk_right) && fired == 0 && !animation_lo
             proj.direction = new_direction
             proj.speed = proj_speed
         }
+    } else if (projectile == obj_claw) {
+        var xpos = x
+        var ypos = y
+        
+        if (atk_up) ypos -= attack_range
+        else if (atk_down) ypos += attack_range
+        else if (atk_left) xpos -= attack_range
+        else if (atk_right) xpos += attack_range
+        
+        var proj = instance_create(xpos, ypos, projectile);
+        proj.direction = proj_direction
+        proj.speed = proj_speed
     }
 } else firing = false
 

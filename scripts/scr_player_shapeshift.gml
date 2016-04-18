@@ -1,5 +1,6 @@
 var bun = keyboard_check(ord("1"))
 var dragon = keyboard_check(ord("2"))
+var tiger = keyboard_check(ord("3"))
 
 if (!animation_lock) {
     if (bun && shifted == 0 && id.object_index != obj_bun) {
@@ -13,6 +14,13 @@ if (!animation_lock) {
         var new_hp = hp
         var new_fired = fired
         instance_change(obj_dragon, true)
+        hp = new_hp
+        fired = new_fired
+        poof = true
+    } else if (tiger && shifted == 0 && id.object_index != obj_tiger) {
+        var new_hp = hp
+        var new_fired = fired
+        instance_change(obj_tiger, true)
         hp = new_hp
         fired = new_fired
         poof = true

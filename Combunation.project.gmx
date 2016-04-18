@@ -49,13 +49,14 @@
       <sprites name="Tiger">
         <sprite>sprites\spr_baby_tiger</sprite>
         <sprite>sprites\spr_tiger</sprite>
-        <sprite>sprites\spr_tiger_attack</sprite>
-        <sprite>sprites\spr_tiger_run</sprite>
+        <sprite>sprites\spr_tiger_atk</sprite>
+        <sprite>sprites\spr_tiger_walk</sprite>
       </sprites>
     </sprites>
     <sprites name="Projectile">
       <sprite>sprites\spr_poop</sprite>
       <sprite>sprites\spr_fire</sprite>
+      <sprite>sprites\spr_claw</sprite>
       <sprite>sprites\spr_bullet</sprite>
     </sprites>
   </sprites>
@@ -70,6 +71,7 @@
       <script>scripts\scr_poop_create.gml</script>
       <script>scripts\scr_bullet_create.gml</script>
       <script>scripts\scr_fire_create.gml</script>
+      <script>scripts\scr_claw_create.gml</script>
     </scripts>
     <scripts name="Player">
       <scripts name="Bun">
@@ -84,6 +86,13 @@
         <script>scripts\scr_dragon_audio.gml</script>
         <script>scripts\scr_dragon_animation.gml</script>
         <script>scripts\scr_dragon_animation_end.gml</script>
+      </scripts>
+      <scripts name="Tiger">
+        <script>scripts\scr_tiger_create.gml</script>
+        <script>scripts\scr_tiger_step.gml</script>
+        <script>scripts\scr_tiger_audio.gml</script>
+        <script>scripts\scr_tiger_animation.gml</script>
+        <script>scripts\scr_tiger_animation_end.gml</script>
       </scripts>
       <script>scripts\scr_player_movement.gml</script>
       <script>scripts\scr_player_attack.gml</script>
@@ -131,12 +140,14 @@
       <object>objects\obj_enemy_projectile</object>
       <object>objects\obj_poop</object>
       <object>objects\obj_fire</object>
+      <object>objects\obj_claw</object>
       <object>objects\obj_bullet</object>
     </objects>
     <objects name="Player">
       <object>objects\obj_player</object>
       <object>objects\obj_bun</object>
       <object>objects\obj_dragon</object>
+      <object>objects\obj_tiger</object>
     </objects>
     <objects name="Enemy">
       <object>objects\obj_robot</object>

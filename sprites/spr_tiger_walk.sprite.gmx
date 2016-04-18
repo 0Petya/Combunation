@@ -20,11 +20,11 @@
   <width>64</width>
   <height>64</height>
   <frames>
-    <frame index="0">images\spr_tiger_run_0.png</frame>
-    <frame index="1">images\spr_tiger_run_1.png</frame>
-    <frame index="2">images\spr_tiger_run_2.png</frame>
-    <frame index="3">images\spr_tiger_run_3.png</frame>
-    <frame index="4">images\spr_tiger_run_4.png</frame>
-    <frame index="5">images\spr_tiger_run_5.png</frame>
+    <frame index="0">images\spr_tiger_walk_0.png</frame>
+    <frame index="1">images\spr_tiger_walk_1.png</frame>
+    <frame index="2">images\spr_tiger_walk_2.png</frame>
+    <frame index="3">images\spr_tiger_walk_3.png</frame>
+    <frame index="4">images\spr_tiger_walk_4.png</frame>
+    <frame index="5">images\spr_tiger_walk_5.png</frame>
   </frames>
 </sprite>
