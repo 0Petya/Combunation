@@ -5,7 +5,7 @@ if (!generated) {
         var position = script_execute(scr_free_spot, instance.sprite_width, instance.sprite_height);
         instance.x = position[0]
         instance.y = position[1]
-    } else if (level != 4) {
+    } else {
         var diff = level * difficulty
         var enemies = irandom_range(diff, diff + (diff / 2))
         var i

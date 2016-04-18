@@ -28,7 +28,7 @@ script_execute(scr_text_outline, 88, 80, "2", dragon_color, c_black)
 script_execute(scr_text_outline, 152, 80, "3", tiger_color, c_black)
 script_execute(scr_text_outline, 216, 80, "4", shark_color, c_black)
 
-script_execute(scr_text_outline, view_wport[0] - 156, 32, "Level: " + string(level), c_white, c_black)
+script_execute(scr_text_outline, view_wport[0] - 156, 32, "Level " + string(level - 1), c_white, c_black)
 
 if (instance_exists(obj_player)) {
     var player = instance_nearest(x, y, obj_player)
