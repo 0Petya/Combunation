@@ -8,10 +8,11 @@ var hsp = (right + left) * proj_speed
 
 var proj
 if ((abs(vsp) || abs(hsp)) && fired == 0) {
+    firing = true
     proj = instance_create(x, y, projectile)
     proj.vsp = vsp
     proj.hsp = hsp
     fired = fire_speed
-}
+} else firing = false
 
 if (fired != 0) fired--
