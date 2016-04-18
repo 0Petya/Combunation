@@ -1,6 +1,6 @@
 if (!generated) {
     if (level == 1) {
-        var player = obj_dragon
+        var player = obj_bun
         var instance = instance_create(0, 0, player)
         var position = script_execute(scr_free_spot, instance.sprite_width, instance.sprite_height);
         instance.x = position[0]

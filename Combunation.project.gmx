@@ -10,6 +10,7 @@
     <sound>sound\snd_step</sound>
     <sound>sound\snd_music</sound>
     <sound>sound\snd_fire</sound>
+    <sound>sound\snd_poof</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_wall</sprite>
@@ -29,6 +30,7 @@
     <sprite>sprites\spr_robot_front</sprite>
     <sprite>sprites\spr_robot_back</sprite>
     <sprite>sprites\spr_shadow</sprite>
+    <sprite>sprites\spr_poof</sprite>
     <sprites name="Player">
       <sprites name="Bun">
         <sprite>sprites\spr_bun_walk</sprite>
@@ -112,6 +114,8 @@
       <script>scripts\scr_manager_create.gml</script>
     </scripts>
     <script>scripts\scr_shadow_step.gml</script>
+    <script>scripts\scr_poof_animation_end.gml</script>
+    <script>scripts\spr_poof_create.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_solid</object>
@@ -124,8 +128,8 @@
       <object>objects\obj_bullet</object>
     </objects>
     <objects name="Player">
-      <object>objects\obj_bun</object>
       <object>objects\obj_player</object>
+      <object>objects\obj_bun</object>
       <object>objects\obj_dragon</object>
     </objects>
     <objects name="Enemy">
@@ -150,6 +154,7 @@
     <object>objects\obj_camera</object>
     <object>objects\obj_manager</object>
     <object>objects\obj_shadow</object>
+    <object>objects\obj_poof</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>

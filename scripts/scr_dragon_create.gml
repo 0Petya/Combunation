@@ -1,7 +1,6 @@
 event_inherited()
 
-hp = 6
-move_speed = 5
+move_speed = 3
 proj_speed = 5
 projectile = obj_fire
 fire_speed = 50
