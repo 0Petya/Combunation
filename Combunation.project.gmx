@@ -56,6 +56,8 @@
     <scripts name="Enemy">
       <scripts name="Robot">
         <script>scripts\scr_robot_create.gml</script>
+        <script>scripts\scr_robot_animation.gml</script>
+        <script>scripts\scr_robot_step.gml</script>
       </scripts>
       <script>scripts\scr_enemy_attack.gml</script>
       <script>scripts\scr_enemy_step.gml</script>
