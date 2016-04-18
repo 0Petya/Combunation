@@ -1,18 +1,30 @@
-var up = -keyboard_check(vk_up)
-var down = keyboard_check(vk_down)
-var left = -keyboard_check(vk_left)
-var right = keyboard_check(vk_right)
+atk_up = keyboard_check(vk_up)
+atk_down = keyboard_check(vk_down)
+atk_left = keyboard_check(vk_left)
+atk_right = keyboard_check(vk_right)
 
-var vsp = (up + down) * proj_speed
-var hsp = (right + left) * proj_speed
+var proj_direction;
+if (atk_up) proj_direction = 90
+else if (atk_down) proj_direction = 270
+else if (atk_left) proj_direction = 180
+else if (atk_right) proj_direction = 0
 
-var proj
-if ((abs(vsp) || abs(hsp)) && fired == 0) {
+if ((atk_up || atk_down || atk_left || atk_right) && fired == 0 && !animation_lock) {
     firing = true
-    proj = instance_create(x, y, projectile)
-    proj.vsp = vsp
-    proj.hsp = hsp
     fired = fire_speed
+    
+    if (projectile == obj_poop) {
+        var proj = instance_create(x, y, projectile);
+        proj.direction = proj_direction
+        proj.speed = proj_speed
+    } else if (projectile == obj_fire) {
+        var i
+        for (i = -1; i < 2; i++) {
+            var proj = instance_create(x, y, projectile);
+            proj.direction = proj_direction + i * 30
+            proj.speed = proj_speed
+        }
+    }
 } else firing = false
 
 if (fired != 0) fired--

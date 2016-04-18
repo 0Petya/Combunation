@@ -12,7 +12,6 @@
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_wall</sprite>
-    <sprite>sprites\spr_bullet</sprite>
     <sprites name="level_1">
       <sprite>sprites\spr_room_wall_corner_left</sprite>
       <sprite>sprites\spr_room_wall_corner_outside</sprite>
@@ -28,18 +27,30 @@
     </sprites>
     <sprite>sprites\spr_robot_front</sprite>
     <sprite>sprites\spr_robot_back</sprite>
-    <sprites name="Bun">
-      <sprite>sprites\spr_bun_walk</sprite>
-      <sprite>sprites\spr_bun_jump</sprite>
-      <sprite>sprites\spr_bun</sprite>
-      <sprite>sprites\spr_poop</sprite>
-      <sprite>sprites\spr_baby_dragon</sprite>
-      <sprite>sprites\spr_bun_dragon</sprite>
-      <sprite>sprites\spr_bun_dragon_atk</sprite>
-      <sprite>sprites\spr_baby_tiger</sprite>
-      <sprite>sprites\spr_baby_shark</sprite>
-    </sprites>
     <sprite>sprites\spr_shadow</sprite>
+    <sprites name="Player">
+      <sprites name="Bun">
+        <sprite>sprites\spr_bun_walk</sprite>
+        <sprite>sprites\spr_bun_jump</sprite>
+        <sprite>sprites\spr_bun</sprite>
+      </sprites>
+      <sprites name="Dragon">
+        <sprite>sprites\spr_baby_dragon</sprite>
+        <sprite>sprites\spr_dragon</sprite>
+        <sprite>sprites\spr_dragon_atk</sprite>
+      </sprites>
+      <sprites name="Shark">
+        <sprite>sprites\spr_baby_shark</sprite>
+      </sprites>
+      <sprites name="Tiger">
+        <sprite>sprites\spr_baby_tiger</sprite>
+      </sprites>
+    </sprites>
+    <sprites name="Projectile">
+      <sprite>sprites\spr_poop</sprite>
+      <sprite>sprites\spr_fire</sprite>
+      <sprite>sprites\spr_bullet</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -48,12 +59,9 @@
   <scripts name="scripts">
     <scripts name="Projectile">
       <script>scripts\scr_projectile_step.gml</script>
-      <scripts name="Poop">
-        <script>scripts\scr_poop_create.gml</script>
-      </scripts>
-      <scripts name="Bullet">
-        <script>scripts\scr_bullet_create.gml</script>
-      </scripts>
+      <script>scripts\scr_poop_create.gml</script>
+      <script>scripts\scr_bullet_create.gml</script>
+      <script>scripts\scr_fire_create.gml</script>
     </scripts>
     <scripts name="Player">
       <scripts name="Bun">
@@ -62,10 +70,18 @@
         <script>scripts\scr_bun_animation.gml</script>
         <script>scripts\scr_bun_audio.gml</script>
       </scripts>
+      <scripts name="Dragon">
+        <script>scripts\scr_dragon_create.gml</script>
+        <script>scripts\scr_dragon_step.gml</script>
+        <script>scripts\scr_dragon_audio.gml</script>
+        <script>scripts\scr_dragon_animation.gml</script>
+        <script>scripts\scr_dragon_animation_end.gml</script>
+      </scripts>
       <script>scripts\scr_player_movement.gml</script>
       <script>scripts\scr_player_attack.gml</script>
       <script>scripts\scr_player_step.gml</script>
       <script>scripts\scr_player_create.gml</script>
+      <script>scripts\scr_player_shapeshift.gml</script>
     </scripts>
     <scripts name="Enemy">
       <scripts name="Robot">
@@ -94,12 +110,19 @@
   </scripts>
   <objects name="objects">
     <object>objects\obj_solid</object>
+    <objects name="Projectile">
+      <object>objects\obj_projectile</object>
+      <object>objects\obj_player_projectile</object>
+      <object>objects\obj_enemy_projectile</object>
+      <object>objects\obj_poop</object>
+      <object>objects\obj_fire</object>
+      <object>objects\obj_bullet</object>
+    </objects>
     <objects name="Player">
       <object>objects\obj_bun</object>
       <object>objects\obj_player</object>
+      <object>objects\obj_dragon</object>
     </objects>
-    <object>objects\obj_poop</object>
-    <object>objects\obj_bullet</object>
     <objects name="Enemy">
       <object>objects\obj_robot</object>
       <object>objects\obj_enemy</object>
@@ -119,7 +142,6 @@
       <object>objects\obj_wall_corner_curve</object>
     </objects>
     <object>objects\obj_entity</object>
-    <object>objects\obj_projectile</object>
     <object>objects\obj_camera</object>
     <object>objects\obj_manager</object>
     <object>objects\obj_shadow</object>
