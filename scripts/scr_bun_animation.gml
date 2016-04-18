@@ -11,7 +11,6 @@ if (!animation_lock) {
     }
     
     if (firing) {
-        show_debug_message("hello")
         if (atk_right) image_xscale = 1
         else if (atk_left) image_xscale = -1
     }

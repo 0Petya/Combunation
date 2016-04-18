@@ -19,9 +19,9 @@ if ((atk_up || atk_down || atk_left || atk_right) && fired == 0 && !animation_lo
         proj.speed = proj_speed
     } else if (projectile == obj_fire) {
         var i
-        for (i = -1; i < 2; i++) {
-            var proj = instance_create(x, y, projectile);
-            proj.direction = proj_direction + i * 30
+        for (i = -3; i <= 3; i+= 2) {
+            var proj = instance_create(x, y - 10, projectile);
+            proj.direction = proj_direction + i * 15
             proj.speed = proj_speed
         }
     }
