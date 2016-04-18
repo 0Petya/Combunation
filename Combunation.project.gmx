@@ -10,10 +10,11 @@
     <sprite>sprites\spr_bullet</sprite>
     <sprites name="level_1">
       <sprite>sprites\spr_room_wall_corner_left</sprite>
-      <sprite>sprites\spr_room_wall__corner_outside</sprite>
+      <sprite>sprites\spr_room_wall_corner_outside</sprite>
       <sprite>sprites\obj_room_wall_far</sprite>
       <sprite>sprites\spr_room_wall_corner_right</sprite>
       <sprite>sprites\spr_room_wall_left</sprite>
+      <sprite>sprites\spr_room_wall_corner_curve</sprite>
       <sprite>sprites\spr_room_wall_right</sprite>
       <sprite>sprites\spr_wall_top</sprite>
       <sprite>sprites\spr_room_wall_close</sprite>
@@ -88,12 +89,15 @@
       <object>objects\obj_wall_left</object>
       <object>objects\obj_wall_right</object>
       <object>objects\obj_wall_corner_left</object>
+      <object>objects\obj_wall_corner_outside</object>
       <object>objects\obj_wall</object>
       <object>objects\obj_wall_corner_right</object>
       <object>objects\obj_wall_close</object>
       <object>objects\obj_wall_close_right</object>
       <object>objects\obj_wall_close_left</object>
+      <object>objects\obj_wall_top</object>
       <object>objects\object_invisible_wall</object>
+      <object>objects\obj_wall_corner_curve</object>
     </objects>
     <object>objects\obj_entity</object>
     <object>objects\obj_projectile</object>
