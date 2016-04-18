@@ -9,6 +9,7 @@
     <sound>sound\snd_laser</sound>
     <sound>sound\snd_step</sound>
     <sound>sound\snd_music</sound>
+    <sound>sound\snd_fire</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_wall</sprite>
@@ -44,9 +45,9 @@
       </sprites>
       <sprites name="Tiger">
         <sprite>sprites\spr_baby_tiger</sprite>
-        <sprite>sprites\spr_bun_tiger</sprite>
-        <sprite>sprites\spr_bun_tiger_attack</sprite>
-        <sprite>sprites\spr_bun_tiger_run</sprite>
+        <sprite>sprites\spr_tiger</sprite>
+        <sprite>sprites\spr_tiger_attack</sprite>
+        <sprite>sprites\spr_tiger_run</sprite>
       </sprites>
     </sprites>
     <sprites name="Projectile">
@@ -61,6 +62,7 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <scripts name="Projectile">
+      <script>scripts\scr_projectile_create.gml</script>
       <script>scripts\scr_projectile_step.gml</script>
       <script>scripts\scr_poop_create.gml</script>
       <script>scripts\scr_bullet_create.gml</script>

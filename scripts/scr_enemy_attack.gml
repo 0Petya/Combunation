@@ -1,6 +1,5 @@
 if (player_in_range) {
     attacking = true
-    
     var proj
     if (fired == 0) {
         firing = true

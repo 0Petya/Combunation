@@ -1,1 +1,1 @@
-if (firing) audio_play_sound(snd_poop, 2, false)
+if (firing) audio_play_sound(snd_fire, 2, false)

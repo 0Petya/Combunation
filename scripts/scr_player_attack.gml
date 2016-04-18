@@ -21,7 +21,9 @@ if ((atk_up || atk_down || atk_left || atk_right) && fired == 0 && !animation_lo
         var i
         for (i = -3; i <= 3; i+= 2) {
             var proj = instance_create(x, y - 10, projectile);
-            proj.direction = proj_direction + i * 15
+            var new_direction = proj_direction + i * 15;
+            proj.image_angle = new_direction
+            proj.direction = new_direction
             proj.speed = proj_speed
         }
     }
