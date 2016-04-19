@@ -45,8 +45,12 @@
       </sprites>
       <sprites name="Shark">
         <sprite>sprites\spr_baby_shark</sprite>
+<<<<<<< Updated upstream
+        <sprite>sprites\spr_shark</sprite>
+=======
         <sprite>sprites\spr_bun_shark_stride</sprite>
         <sprite>sprites\spr_bun_shark_atk</sprite>
+>>>>>>> Stashed changes
       </sprites>
       <sprites name="Tiger">
         <sprite>sprites\spr_baby_tiger</sprite>
