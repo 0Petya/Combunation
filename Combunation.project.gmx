@@ -11,6 +11,8 @@
     <sound>sound\snd_music</sound>
     <sound>sound\snd_fire</sound>
     <sound>sound\snd_poof</sound>
+    <sound>sound\snd_death</sound>
+    <sound>sound\snd_teleport</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_wall</sprite>
