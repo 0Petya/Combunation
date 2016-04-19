@@ -21,7 +21,7 @@ var shark_color = c_white
 if (instance_exists(obj_bun)) bun_color = c_red
 else if (instance_exists(obj_dragon)) dragon_color = c_red
 else if (instance_exists(obj_tiger)) tiger_color = c_red
-//else if (instance_exists(obj_shark)) shark_color = c_red
+else if (instance_exists(obj_shark)) shark_color = c_red
 
 script_execute(scr_text_outline, 24, 80, "1", bun_color, c_black)
 script_execute(scr_text_outline, 88, 80, "2", dragon_color, c_black)

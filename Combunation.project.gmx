@@ -61,6 +61,7 @@
       <sprite>sprites\spr_fire</sprite>
       <sprite>sprites\spr_claw</sprite>
       <sprite>sprites\spr_bullet</sprite>
+      <sprite>sprites\spr_laser</sprite>
     </sprites>
     <sprite>sprites\spr_death</sprite>
     <sprite>sprites\spr_teleport</sprite>
@@ -78,6 +79,7 @@
       <script>scripts\scr_bullet_create.gml</script>
       <script>scripts\scr_fire_create.gml</script>
       <script>scripts\scr_claw_create.gml</script>
+      <script>scripts\scr_laser_create.gml</script>
     </scripts>
     <scripts name="Player">
       <scripts name="Bun">
@@ -99,6 +101,12 @@
         <script>scripts\scr_tiger_audio.gml</script>
         <script>scripts\scr_tiger_animation.gml</script>
         <script>scripts\scr_tiger_animation_end.gml</script>
+      </scripts>
+      <scripts name="Shark">
+        <script>scripts\scr_shark_create.gml</script>
+        <script>scripts\scr_shark_step.gml</script>
+        <script>scripts\scr_shark_audio.gml</script>
+        <script>scripts\scr_shark_animation.gml</script>
       </scripts>
       <script>scripts\scr_player_movement.gml</script>
       <script>scripts\scr_player_attack.gml</script>
@@ -148,12 +156,14 @@
       <object>objects\obj_fire</object>
       <object>objects\obj_claw</object>
       <object>objects\obj_bullet</object>
+      <object>objects\obj_laser</object>
     </objects>
     <objects name="Player">
       <object>objects\obj_player</object>
       <object>objects\obj_bun</object>
       <object>objects\obj_dragon</object>
       <object>objects\obj_tiger</object>
+      <object>objects\obj_shark</object>
     </objects>
     <objects name="Enemy">
       <object>objects\obj_robot</object>

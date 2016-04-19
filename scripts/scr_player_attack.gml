@@ -38,6 +38,11 @@ if ((atk_up || atk_down || atk_left || atk_right) && fired == 0 && !animation_lo
         var proj = instance_create(xpos, ypos, projectile);
         proj.direction = proj_direction
         proj.speed = proj_speed
+    } else if (projectile == obj_laser) {
+        var proj = instance_create(x, y - 20, projectile);
+        proj.image_angle = proj_direction
+        proj.direction = proj_direction
+        proj.speed = proj_speed
     }
 } else firing = false
 
