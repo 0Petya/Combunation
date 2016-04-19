@@ -13,6 +13,7 @@
     <sound>sound\snd_poof</sound>
     <sound>sound\snd_death</sound>
     <sound>sound\snd_teleport</sound>
+    <sound>sound\snd_tiger</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_wall</sprite>
