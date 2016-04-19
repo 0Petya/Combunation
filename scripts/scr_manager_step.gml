@@ -30,6 +30,9 @@ if (instance_number(obj_enemy) == 0) {
     level++
 }
 
-if (!instance_nearest(0, 0, obj_player)) game_over = true
+if (!instance_nearest(0, 0, obj_player) && !game_over) {
+    game_over = true
+    audio_play_sound(snd_didyoureallythinkyoucoulddefeatme, 5, false)
+}
 
 if (keyboard_check(vk_space) && game_over) game_restart()
