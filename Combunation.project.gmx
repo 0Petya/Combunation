@@ -142,8 +142,9 @@
       <script>scripts\scr_manager_gui.gml</script>
     </scripts>
     <script>scripts\scr_shadow_step.gml</script>
-    <script>scripts\scr_poof_animation_end.gml</script>
+    <script>scripts\scr_effect_animation_end.gml</script>
     <script>scripts\spr_poof_create.gml</script>
+    <script>scripts\scr_effect_create.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_consolas</font>
@@ -185,11 +186,16 @@
       <object>objects\object_invisible_wall</object>
       <object>objects\obj_wall_corner_curve</object>
     </objects>
+    <objects name="Effect">
+      <object>objects\obj_effect</object>
+      <object>objects\obj_poof</object>
+      <object>objects\obj_teleport</object>
+      <object>objects\obj_teleport_e</object>
+    </objects>
     <object>objects\obj_entity</object>
     <object>objects\obj_camera</object>
     <object>objects\obj_manager</object>
     <object>objects\obj_shadow</object>
-    <object>objects\obj_poof</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>

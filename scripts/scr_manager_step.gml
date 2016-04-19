@@ -5,6 +5,7 @@ if (!generated) {
         var position = script_execute(scr_free_spot, instance.sprite_width, instance.sprite_height);
         instance.x = position[0]
         instance.y = position[1]
+        instance_create(instance.x, instance.y, obj_teleport)
     } else {
         var diff = level * difficulty
         var enemies = irandom_range(diff, diff + (diff / 2))
@@ -15,6 +16,7 @@ if (!generated) {
             var position = script_execute(scr_free_spot, instance.sprite_width, instance.sprite_height);
             instance.x = position[0]
             instance.y = position[1]
+            instance_create(instance.x, instance.y, obj_teleport_e)
         }
     }
     
@@ -22,6 +24,8 @@ if (!generated) {
 }
 
 if (instance_number(obj_enemy) == 0) {
+    var player = instance_nearest(0, 0, obj_player);
+    player.hp++
     generated = false
     level++
 }
