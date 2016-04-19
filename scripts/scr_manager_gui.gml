@@ -38,7 +38,7 @@ if (instance_exists(obj_player)) {
 }
 
 if (game_over) {
-    script_execute(scr_text_outline, 150, view_hport[0] / 4, "DID YOU REALLY THINK YOU COULD DEFEAT ME?", c_red, c_black)
+    script_execute(scr_text_outline, 150, view_hport[0] / 4, "DID YOU REALLY THINK YOU COULD DEFEAT M.E.?", c_red, c_black)
     draw_sprite(spr_robot_game_over, 0, view_wport[0] / 2, view_hport[0] / 2 + floating)
     script_execute(scr_text_outline, 293, view_hport[0] / 4 + view_hport[0] / 2, "Press space to restart", c_white, c_black) 
 }
