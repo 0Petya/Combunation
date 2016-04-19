@@ -28,6 +28,7 @@
       <sprite>sprites\spr_room_wall_close_corner_left</sprite>
     </sprites>
     <sprite>sprites\spr_robot_front</sprite>
+    <sprite>sprites\spr_robot_game_over</sprite>
     <sprite>sprites\spr_robot_back</sprite>
     <sprite>sprites\spr_shadow</sprite>
     <sprite>sprites\spr_poof</sprite>
@@ -45,8 +46,8 @@
       </sprites>
       <sprites name="Shark">
         <sprite>sprites\spr_baby_shark</sprite>
-        <sprite>sprites\spr_bun_shark_atk</sprite>
-        <sprite>sprites\spr_bun_shark</sprite>
+        <sprite>sprites\spr_shark_atk</sprite>
+        <sprite>sprites\spr_shark</sprite>
       </sprites>
       <sprites name="Tiger">
         <sprite>sprites\spr_baby_tiger</sprite>
