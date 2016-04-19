@@ -192,6 +192,7 @@
       <object>objects\obj_poof</object>
       <object>objects\obj_teleport</object>
       <object>objects\obj_teleport_e</object>
+      <object>objects\obj_death</object>
     </objects>
     <object>objects\obj_entity</object>
     <object>objects\obj_camera</object>
